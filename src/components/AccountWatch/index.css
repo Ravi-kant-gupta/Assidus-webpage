@@ -1,0 +1,21 @@
+.account-watch-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    height: 280px;
+    box-shadow: 10px 0px 10px 0px grey;
+}
+
+.head-row {
+    font-size: 13px;
+    color: #a9aba9;
+}
+table{
+    width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.list-item td{
+    padding-top: 10px;
+}

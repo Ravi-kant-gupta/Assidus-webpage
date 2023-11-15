@@ -1,0 +1,36 @@
+.checking-account-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    height: 280px;
+    box-shadow: 10px 0px 10px 0px grey;
+}
+.checking-account-container hr{
+    background-color: red;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top-bar p{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+.selection-item{
+    border: 1px solid #e8ebeb;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px;
+    width: 85px;
+    margin-left: 10px;
+    font-size: 13px;
+    
+}
+.selection-item option{
+    padding: 5px;
+}

@@ -1,0 +1,44 @@
+.total-cash-account-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    height: 280px;
+    box-shadow: 10px 0px 10px 0px grey;
+}
+.total-top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    height: 50px;
+}
+.total-top-bar p{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+.in-out{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.in-out div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+.in-color{
+    width: 15px;
+    height: 15px;
+    background-color: #04c90e;
+}
+.out-color{
+    width: 15px;
+    height: 15px;
+    background-color: #67f06e;
+}

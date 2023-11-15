@@ -1,0 +1,52 @@
+.pop-up-container{
+    width: 150px;
+    height: 25px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e6f5f5;
+    cursor: pointer;
+}
+.x-axis line {
+    display: none;
+  }
+  .invoice-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    height: 280px;
+    box-shadow: 10px 0px 10px 0px grey;
+  }
+  .modal-pop-up{
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e6f5f5;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px grey;
+  }
+  .modal-pop-up h1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  .button{
+    border: transparent;
+    height: 25px;
+    border-radius: 5px;
+    color: green;
+    font-weight: bold;
+    font-family: 'Roboto';
+    background-color: #daf7f7;
+    cursor: pointer;
+  }
